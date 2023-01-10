@@ -156,9 +156,11 @@ h2{
         margin-bottom: 2px;
         font-weight: 200;
         font-size: 28px;
+        text-align: center;
     }
     h2{
         font-size: 28px;
+        text-align: center;
     }
     .desc{
         font-size: 12px;
