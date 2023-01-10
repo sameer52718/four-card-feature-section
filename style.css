@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.2;
+    background-color: hsl(0, 0%, 98%);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.wrapper{
+    max-width: 1330;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 15px;
+}
+h1{
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 48px;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 5px;
+}
+h2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 5px;
+}
+.desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 40px;
+    width: 30rem;
+    text-align: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 45px;
+    grid-column-gap: 15px;
+}
+
+.id-card{
+    padding: 35px 35px;
+}
+
+.card1{
+    margin-top: 30%;
+    margin-left: auto;
+    background-color: #fff;
+    border-top: 4px solid hsl(180, 62%, 55%) ;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    width: 349px;
+    height: 252px;
+}
+
+.card2-3 {
+
+       display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 35px;
+}
+.card2{
+    margin: auto;
+    width: 349px;
+    height: 252px;
+    background: #fff ;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;    
+}
+
+.card3{
+    margin: auto;
+    width: 349px;
+    height: 252px;
+    background: #fff ;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.card4{
+    margin-top: 30%;
+    margin-right: auto;
+    background-color: #fff;
+    border-top: 4px solid hsl(212, 86%, 64%) ;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    width: 349px;
+    height: 252px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 1rem;
+}
+
+.title-desc{
+    font-weight: 400;
+    font-size: 0.80rem;
+    line-height: 18px;
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 2rem;
+}
+
+.icon{
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+@media screen and (max-width:400px) {
+    .cards{
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 15px;
+        margin-top: 0;
+        margin-bottom: 45px;
+    }
+    .id-card{
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    h1{
+        margin-bottom: 2px;
+        font-weight: 200;
+        font-size: 28px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .desc{
+        font-size: 12px;
+        width: 100%;
+    }
+}
